@@ -1,4 +1,4 @@
-package colat2;
+package test;
 
 import java.awt.Color;
 import java.awt.GridLayout;
@@ -11,7 +11,6 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.WindowConstants;
-
 
 
 public class GameFrameView extends JFrame implements GameModel.GameListener{

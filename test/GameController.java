@@ -1,4 +1,4 @@
-package colat2;
+package test;
 
 import java.awt.Color;
 import java.awt.Point;
