@@ -25,7 +25,7 @@ public class GameModel {
 	
 	public interface GameListener {
 		// Hàm xử lí cập nhật
-		void updateUI(Color color, List<Point> points);
+		void onUpdateUI(Color color, List<Point> points);
 		
 		// Hàm xử lí check Game kết thúc
 		void onGameOver(GameState state);

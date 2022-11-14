@@ -75,7 +75,7 @@ public class GameFrameView extends JFrame implements GameModel.GameListener{
 	
 	
 	@Override
-	public void updateUI(Color color, List<Point> points) {
+	public void onUpdateUI(Color color, List<Point> points) {
 		if(points == null || color == null) return;
 		
 		for (Point point: points) {
