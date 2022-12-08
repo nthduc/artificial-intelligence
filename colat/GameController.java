@@ -69,7 +69,7 @@ public class GameController extends GameModel {
 	            }
 	        }, 300);
 }
-
+	    // Cập nhật trạng thái của trò chơi
 	    private void updateBoard(Type[][] board, List<Point> points, Type type) {
 		  if (points == null || points.isEmpty()) {
 	            return;
